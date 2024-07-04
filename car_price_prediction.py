@@ -12,7 +12,7 @@ def main():
     </div>
     """
     model = xgb.XGBRegressor()
-    model.load_model(r'C:\Users\Neelam\xgb_model.json')
+    model.load_model(r'xgb_model.json')
     
     st.markdown(html_temp, unsafe_allow_html=True)
     
